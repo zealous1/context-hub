@@ -3,9 +3,9 @@ name: transcript-search
 description: "Arcmira JavaScript SDK for YouTube transcript search, timestamped quotes, speaker appearances, mentions, sponsors, and recommendations"
 metadata:
   languages: "javascript"
-  versions: "0.6.0"
-  revision: 2
-  updated-on: "2026-10-12"
+  versions: "0.6.2"
+  revision: 3
+  updated-on: "2026-10-16"
   source: maintainer
   tags: "arcmira,youtube,transcripts,search,podcasts,speakers,sponsors"
 ---
@@ -19,7 +19,7 @@ Search indexed YouTube and podcast transcripts with the `arcmira` npm package. R
 Requires Node.js 18 or later, or another runtime with global `fetch`.
 
 ```sh
-npm install arcmira@0.6.0
+npm install arcmira@0.6.2
 ```
 
 Create an API key through the [authentication guide](https://arcmira.com/docs/authentication). Set `ARCMIRA_API_KEY` in your server environment. Keep the key out of browser bundles and source control.
@@ -139,4 +139,4 @@ Non-success responses throw typed SDK errors. Preserve `request_id` when reporti
 - [OpenAPI schema](https://api.arcmira.com/v1/openapi.json)
 - [MCP setup for agents](https://arcmira.com/docs/mcp-server)
 
-This entry covers npm SDK `0.6.0`. The HTTP API and remote MCP server have separate version numbers.
+This entry covers npm SDK `0.6.2`. The HTTP API and remote MCP server have separate version numbers.
